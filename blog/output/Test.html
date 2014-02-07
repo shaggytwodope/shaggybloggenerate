@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>/Test</title>
+        <link type="text/css" rel="stylesheet" href="/style.css" />
+        <link rel="icon" type="image/png" href="/favicon.ico"/>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo">
+            <h1><a href="index.html">Shaggy@Blog~</a>/Test</h1>
+        </div><!-- #logo -->
+        <div id="menu">
+        <ul>
+
+<li><a href='About.html'>About</a></li>
+<li><a href='Links.html'>Links</a></li>
+<li><a href='Linux.html'>Linux</a></li>
+<li><a href='Projects.html'>Projects</a></li>
+<li><a href='Test.html'>Test</a></li>
+<li><a href='Writings.html'>Writings</a></li>
+                </ul>
+                </div>
+        </div>
+    
+        <!-- #header -->
+    <div id="content">
+        <div id="image"> <!-- You can change this image in the style.css file. -->
+            <div id="text">
+            
+<h2>Test page for Code!</h2>
+<h1>I like candy!</h1>
+<p>This is a regular paragraph.</p>
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+<div id="right">
+<div class="box">
+<h2>Warning:</h2>
+<p>Theres no actual warning, this is just a test of the format.</p>
+
+</div>
+
+</div>
+
+<p>This is another regular paragraph.</p>
+<pre><code>cached() {
+    exists=1
+    while read line; do
+        linea=(${line// / })
+        sha=`sha1sum $1`
+        sha=(${sha// / })
+        if [ ${linea[1]} == $1 ]
+        then
+            if [ ${linea[0]} == ${sha[0]} ]; then
+                exists=0
+                break
+            else
+                sed -i "\|^$line\$|d" $ABSPATH/.cache
+            fi
+        fi
+    done &lt; $ABSPATH/.cache
+
+    if [ $exists -eq 1 ]; then
+        echo `sha1sum $1` &gt;&gt; $ABSPATH/.cache
+    return 1
+else
+    return 0
+fi
+</code></pre>
+<p>}
+</code></pre></p>
+<p><img alt="Alt text" src="/.img/logo.jpg" title="Optional title" /></p>
+<p>Markdown is a light text markup format and a processor to convert that to HTML.
+The originator describes it as follows:</p>
+<blockquote>
+<p>Markdown is a text-to-HTML conversion tool for web writers.
+Markdown allows you to write using an easy-to-read,
+easy-to-write plain text format, then convert it to
+structurally valid XHTML (or HTML).</p>
+<p>-- <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a></p>
+</blockquote>
+<p><em>this is in italic</em>  and <em>so is this</em></p>
+<p><strong>this is in bold</strong>  and <strong>so is this</strong></p>
+<p><strong><em>this is bold and italic</em></strong>  and <strong><em>so is this</em></strong></p>
+<h2>Lists</h2>
+<ul>
+<li>an asterisk starts an unordered list</li>
+<li>and this is another item in the list</li>
+<li>or you can also use the + character</li>
+<li>or the - character</li>
+</ul>
+<p>To start an ordered list, write this:</p>
+<ol>
+<li>this starts a list <em>with</em> numbers</li>
+<li>this will show as number "2"</li>
+<li>this will show as number "3."</li>
+<li>any number, +, -, or * will keep the list going.<ul>
+<li>just indent by 4 spaces (or tab) to make a sub-list<ol>
+<li>keep indenting for more sub lists</li>
+</ol>
+</li>
+<li>here i'm back to the second level</li>
+</ul>
+</li>
+</ol>
+<p><img src="http://i.imgur.com/FJecc1V.jpg" alt=""/></p>
+<p><center>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Rhd6BM1MDeU" frameborder="0" allowfullscreen></iframe></center></p>
+<script src="https://gist.github.com/shaggytwodope/5462663.js"></script>            
+</br>
+</br>
+</br>
+</br>
+</br>
+            <p>Page Generated: Fri 07 Feb 2014 07:37:28 AM PST</p>
+            </div> <!-- #text -->
+        </div> <!-- #image -->
+    </div><!-- #content -->
+    <div id="footer">
+    &copy; <a href="mailto:twodopeshaggy@gmail.com">Shaggy</a>
+
+    </div>
+</div> <!-- #wrapper -->
+</body>
+</html>
+
