@@ -91,12 +91,5 @@ To start an ordered list, write this:
 
 <img src="http://i.imgur.com/FJecc1V.jpg" alt=""/>
 
-
-
-<center>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/Rhd6BM1MDeU" frameborder="0" allowfullscreen></iframe></center>
-
-
-
 <script src="https://gist.github.com/shaggytwodope/5462663.js"></script>
 
